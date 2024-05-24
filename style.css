@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+* {
+	margin: 0%;
+	padding: 0%;
+	font-family: "Rajdhani", sans-serif;
+	box-sizing: border-box;
+	color: #efd9ff;
+}
+
+body {
+	background-color: #222;
+}
+
+.name{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 3em;
+	margin-top: 30px;
+	font-weight: bolder;
+}
+.card {
+	width: 90%;
+	max-width: 470px;
+	background: linear-gradient(145deg, #061d45, #33085e);
+	color: #fff;
+	margin: 30px auto 0;
+	border-radius: 20px;
+	padding: 40px 35px;
+	text-align: center;
+	border: 3px solid #33085e;
+}
+
+.searchBar {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.searchBar input {
+	border: 0;
+	outline: 0;
+	background: #ebfffc;
+	color: #555;
+	padding: 10px 25px;
+	height: 60px;
+	border-radius: 30px;
+	flex: 1;
+	margin-right: 16px;
+	font-size: 18px;
+}
+.searchBar button {
+	border: 0;
+	outline: 0;
+	background: #ebfffc;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+}
+.searchBar button img {
+	margin-top: 5px;
+	width: 30px;
+}
+
+.weatherIcon {
+	width: 170px;
+	margin-top: 30px;
+}
+.weatherIcon h1 {
+	font-size: 45px;
+	font-weight: 400;
+	margin-top: -10px;
+}
+
+.details {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+	margin-top: 50px;
+}
+
+.column {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	padding-right: 10px;
+}
+.column img {
+	width: 80px;
+	margin-right: 10px;
+}
+
+.humidity .wind {
+	font-size: 28px;
+	margin-top: -6px;
+}
+
+.weather {
+	display: none;
+}
+
+.error {
+	text-align: center;
+	font-size: xx-large;
+	font-weight: 500;
+	margin-top: 30px;
+	display: none;
+}
